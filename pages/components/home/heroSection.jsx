@@ -25,12 +25,12 @@ const HeroSection = () => {
   ];
 
   const brands = [
-    "https://cdn.sanity.io/images/0v989dzu/production/40dd1b48d83a678fc9345880b732c01abdad7a6a-403x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
-    "https://cdn.sanity.io/images/0v989dzu/production/3159f97b5857d3246d6f97808c6ca85dd5a89b24-403x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
-    "https://cdn.sanity.io/images/0v989dzu/production/00595c669efd845e800d7299d663d63e18752141-404x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
-    "https://cdn.sanity.io/images/0v989dzu/production/6083fc87c3e441b0097a703988e00b6477de89aa-403x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
-    "https://cdn.sanity.io/images/0v989dzu/production/b593a718ccee534d5f5afa7cea262f3a5cf4f193-403x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
-    "https://cdn.sanity.io/images/0v989dzu/production/1627424ed48df223cb59caa0ee7b9fca31475e66-404x505.jpg?w=300&h=375&q=100&crop=center&auto=format",
+    "https://i.pinimg.com/1200x/b7/7b/55/b77b5558e0019ab8f743e3cfd7fb1936.jpg",
+    "https://i.pinimg.com/1200x/8a/fb/26/8afb265594026078f5d563b2f041474f.jpg",
+    "https://i.pinimg.com/1200x/dc/f8/e9/dcf8e988782b7c483d61230ded7ce94d.jpg",
+    "https://i.pinimg.com/736x/2e/8f/fd/2e8ffde515ae32b775adbc5a8471b7e1.jpg",
+    "https://i.pinimg.com/736x/9e/5b/74/9e5b748446714bb859e5b7650c1fb9d6.jpg",
+    "https://i.pinimg.com/1200x/fd/a3/df/fda3df0fa518912ec982ff6242ff58e8.jpg",
   ];
 
   return (
@@ -110,6 +110,7 @@ const HeroSection = () => {
                       src={brand}
                       alt={`Brand image ${index + 1}`}
                       style={{ aspectRatio: "4 / 5" }}
+                      className="h-[18rem] object-cover"
                     />
                   </a>
                 </div>
