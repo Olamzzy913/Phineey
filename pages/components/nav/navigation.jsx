@@ -12,7 +12,7 @@ import Search from "./search";
 const Navigation = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [selectedFilter, setSelectedFilter] = useState("woman");
-  const category = ["woman", "curve", "men", "kids", "beauty"];
+  const category = ["woman", "thrift", "r2wear", "curture"];
 
   const handleFilterSelection = (link, index) => {
     setActiveIndex(index);
@@ -21,7 +21,7 @@ const Navigation = () => {
 
   return (
     <>
-      <div className="mx-auto w-full max-w-[1920px] overflow-hidden">
+      <div className="mx-auto w-full max-w-[1920px] overflow-hidden md:overflow-visible ">
         <div style={{ height: "auto" }}>
           <header className="header relative z-10 flex flex-col items-center bg-white pt-1 lgHeader:pt-[13px] md:pt-4 scroll-down">
             <div className="main-header-tabs flex w-full flex-row justify-between pl-4 pr-2 lgHeader:px-8">

@@ -6,7 +6,7 @@ const Search = () => {
   const [selectedFilter, setSelectedFilter] = useState("woman");
   const [isActive, setIsActive] = useState(false);
   const searchRef = useRef(null);
-  const category = ["woman", "men", "kids", "beauty"];
+  const category = ["woman", "thrift", "r2wear", "curture"];
 
   const hots = [
     "date night",
@@ -84,12 +84,12 @@ const Search = () => {
                   className={`${
                     selectedFilter === "woman"
                       ? "w-[3.5rem] left-0"
-                      : selectedFilter === "men"
-                      ? "w-[2rem] left-[6rem]"
-                      : selectedFilter === "kids"
-                      ? "w-[2rem] left-[10.4rem]"
-                      : selectedFilter === "beauty"
-                      ? "w-[3.2rem] left-[15rem]"
+                      : selectedFilter === "thrift"
+                      ? "w-[3.2rem] left-[6rem]"
+                      : selectedFilter === "r2wear"
+                      ? "w-[3.8rem] left-[11.3rem]"
+                      : selectedFilter === "curture"
+                      ? "w-[4rem] left-[17.5rem]"
                       : ""
                   } absolute top-[2rem]  h-1 bg-black transition-[left,width] duration-[250ms] ease-in`}
                 ></div>
